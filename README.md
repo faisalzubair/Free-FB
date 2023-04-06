@@ -1,7 +1,6 @@
 ### Install Script Di Termux
 ```
 termux-change-repo
-
 pkg update && pkg upgrade -y
 pkg install python -y
 pkg install git
