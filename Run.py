@@ -286,7 +286,7 @@ while True:
 [bold red]  (  __)(  _ \(  __)(  __)___(  __)(  _ \\
 [bold red]   ) _)  )   / ) _)  ) _)(___)) _)  ) _ (
 [bold white]  (__)  (__\_)(____)(____)   (__)  (____/
-\t   [underline blue]Coded by Rozhak-XD""", width=47, title="Version 2.5", style="bold white")) # Coded by Rozhak-XD
+\t   [underline blue]Developer : Itsme""", width=47, title="Version 2.5", style="bold white")) # Coded by Rozhak-XD
     try:
         token = json.loads(open('Data/Token.json', 'r').read())['Token']
         response = requests.get(
