@@ -38,18 +38,18 @@ for xd in range(10000):
 	ugen2.append(uaku)
 
 #------------[ UBAH UA DIH SINI OM ]---------------#
-for t in range(10000):
-        rr = random.randint
-        rc = random.choice
-    	g1 = random.choice(['01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','11.1.1','11.4.2','5.1.4','5.0.2','5.1.1'])
-    	g2 = random.choice(['OPM1','TP1A','RP1A','PPR1','PKQ1','QP1A','SP1A','RKQ1','QKQ1'])
-    	u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-A405FN Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    	u2 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; M2012K11AG Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    	u3 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; Infinix X5514D Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    	u4 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; Meizu C10 Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    	u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J120H Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    	UaMainn = random.choice([u1, u2, u3, u4, u5])
-    	ugen.append(UaMainn)
+for brayen in range(10000):
+    rr = random.randint
+    rc = random.choice
+    g1 = random.choice(['01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19'])
+    g2 = random.choice(['OPM1','TP1A','RP1A','PPR1','PKQ1','QP1A','SP1A','RKQ1','QKQ1'])
+    u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-A405FN Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u2 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; M2012K11AG Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u3 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; Infinix X5514D Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u4 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; Meizu C10 Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J120H Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    UaMainn = random.choice([u1, u2, u3, u4, u5])
+    ugen.append(UaMainn)
  
 for x in range(10):
 	a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
@@ -65,8 +65,8 @@ for td in range(10):
     	c=random.choice(['Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/332.0.0.22.108;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/386.0.0.19.106;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]','Version/4.0 Chrome/108.0.5359.79 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]','Version/4.0 Chrome/87.0.4280.101 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/332.0.0.23.111;]','Version/4.0 Chrome/87.0.4280.101 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/369.0.0.18.103;]','Version/4.0 Chrome/93.0.4577.82 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/364.1.0.25.132;]','Version/4.0 Chrome/113.0.5672.77 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/413.0.0.30.104;]','Version/4.0 Chrome/112.0.5615.135 Safari/537.36 [FB_IAB/FB4A;FBAV/413.0.0.30.104;]','Version/4.0 Chrome/112.0.5615.135 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/414.0.0.30.113;]','Version/4.0 Chrome/112.0.5615.136 Safari/537.36 [FB_IAB/FB4A;FBAV/414.0.0.30.113;]','Version/4.0 Chrome/110.0.5481.65 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.0.0.23.72;]','Version/4.0 Chrome/113.0.5672.114 Safari/537.36 [FB_IAB/FB4A;FBAV/414.0.0.30.113;]','Version/4.0 Chrome/112.0.5615.136 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/413.0.0.30.104;]','Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36','Chrome/80.0.3987.87 Mobile Safari/537.36 YaApp_Android/10.30 YaSearchBrowser/10.30','Chrome/76.0.217.77 Mobile Safari/537.36','Chrome/183.0.1444.82 UCBrowser/12.13.4.1214 Mobile Safari/537.36','Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/403.1.0.17.106;]','Chrome/84.0.4147.89 Mobile Safari/537.36','Chrome/85.0.4183.101 Mobile Safari/537.36','Chrome/83.0.4103.106 Mobile Safari/537.36 OPR/59.1.2926.54067','Chrome/81.0.4044.122 Mobile Safari/537.36','Chrome/83.0.4103.106 Mobile Safari/537.36','Chrome/83.0.4103.101 Mobile Safari/537.36','Chrome/83.0.4103.96 Mobile Safari/537.36','Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/354.0.0.10.113;]','Chrome/108.0.0.0 Mobile Safari/537.36','Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/403.1.0.17.106;]','Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/379.1.0.23.114;]','Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/343.0.0.13.79;]','Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/388.0.0.32.105;]','Version/4.0 Chrome/111.0.5563.57 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/402.0.0.11.101;]','Version/4.0 Chrome/110.0.5481.65 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/343.0.0.13.79;]','Version/4.0 Chrome/109.0.5414.117 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/400.0.0.37.76;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36[FBAN/EMA;FBLC/en_GB;FBAV/340.0.0.9.76;]','Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36 T7/13.15','Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36 T7/13.15 SP-engine/2.53.0 baiduboxapp/13.15.0.11 (Baidu; P1 12) NABar/1.0','Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36 T7/13.16','Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54 GLS/92.10.9729.30','Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.87','EdgiOS/108.0.1462.62 Version/15.0 Mobile/15E148 Safari/604.1'])
     	ua1=f"Mozilla/5.0 (Linux; Android {a}; {b} AppleWebKit/537.36 (KHTML, like Gecko) {c}"
     	ua2=f"Mozilla/5.0 ({b} AppleWebKit/537.36 (KHTML, like Gecko) {c}"
-	Ua_Itsme = random.choice([u1, u2])
-	ugen2.append(Ua_Itsme)
+	UaGwe = random.choice([u1, u2])
+	ugen2.append(UaGwe)
 def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
